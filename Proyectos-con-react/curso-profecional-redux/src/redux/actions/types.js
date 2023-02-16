@@ -1,0 +1,5 @@
+export const types = {
+    SET_POKEMONS: "SET_POKEMONS",
+    SET_LOADING: "SET_LOADING",
+    SET_FAVORITES: "SET_FAVORITES",
+}
