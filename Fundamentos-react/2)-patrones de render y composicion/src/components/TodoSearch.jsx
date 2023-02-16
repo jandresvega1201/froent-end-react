@@ -1,9 +1,7 @@
 import React from 'react';
 import '../styles/TodoSearch.css';
-import {TodoContext} from "../todoContext";
-const TodoSearch = () => {
 
-    const { input, setInput } = React.useContext(TodoContext);
+const TodoSearch = ({setInput, input, loading}) => {
     const onSearchValueChanged = (e) => {
         setInput(e.target.value);
     }
@@ -14,6 +12,7 @@ const TodoSearch = () => {
                    placeholder="Cebolla"
                    value={input}
                    onChange={onSearchValueChanged}
+                   disabled={loading}
                    // onChange={(e) => onSearchValueChanged(e)}
                    //Cualquiera de las dos formas sirve para capturar los datos de un input
             />
