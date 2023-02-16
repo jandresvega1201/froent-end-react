@@ -1,0 +1,16 @@
+{
+  "name": "froent-end-react",
+  "version": "1.0.0",
+  "description": "* Intro-a-React\r * Patrones de render y composicion\r * Manejo profecional del estado\r * Navegacion React-router-Dom\r * Configuracion webpack\r * Configuracion-webpack-react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@user2:jandresvega1201/froent-end-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
