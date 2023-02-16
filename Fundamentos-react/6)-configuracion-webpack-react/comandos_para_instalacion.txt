@@ -1,0 +1,108 @@
+INSTALACION
+
+npm install webpack
+npm install webpack-cli
+
+COMANDOS
+
+npx webpack                                                             npm i copy-webpack-plugin -D
+npx webpack --mode development
+npx webpack --mode production
+
+//correr nuestra configuracion
+npx webpack --mode production --config webpack.config.js
+
+NOS AYUDA A VER LOS CAMBIOS DEL PROYECTO EN TIEMPO REAL
+npm install webpack-dev-server -D
+
+
+ANALIZA LOS PAQUETES INSTALDOS
+npm install webpack-bundle-analYzer -D
+
+COMANDOS
+npx webpack --profile --json > stats.json
+npx webpack-bundle-analyzer stats.json
+
+---------------------------------------------------------------------
+
+INSTALACION DE BABEL
+
+npm install babel-loader
+npm install @babel/core
+npm install @babel/preset-env
+npm install @babel/plugin-transform-runtime -
+
+------------------------------------------------------------------------
+
+INSTALAR PLUGIN PARA TRABAHAR CON HTML DENTRO DE WEBPACK
+
+npm i html-webpack-plugin -D
+
+INSTALAR PLUGIN PARA TRABAJAR CON CSS DENTRO webpack
+
+npm install mini-css-extract-plugin
+npm install css-loader -D
+npm install stylus -D
+npm install stylus-loader -D
+
+//para minimizar nustro css
+npm install css-minimizer-webpack-plugin
+npm install terser-webpack-plugin -D
+
+
+PARA TRABAJAR CON FUENTES SE USA EL SIGUIENTE COMANDO:
+
+npm install url-loader file-loader -D
+
+
+VARIABLES DE ENTORNO CON WEBPACK
+npm i dotenv-webpack -D
+
+
+SIRVE PARA LIMPIAR EL CODIGO QUE GENERA WEBPACK
+npm install clean-webpack-plugin -D
+
+
+MODO WATCH
+//es para ver los cambios o estar observando los cambios de nuestro proyecto
+
+
+
+-----------------------------------------------------------------------------------------
+
+WEBPACK CON REACT
+
+npm install react -S
+npm install react-dom -S
+
+
+INSTALAR BABEL EN REACT
+
+npm install babel-loader
+npm install @babel/core
+npm install @babel/preset-env
+npm install @babel/preset-react
+
+INSTALAR WEBPACK
+
+npm install webpack -D
+npm install webpack-cli -D
+npm install webpack-dev-server -D
+
+INSTALAR PLUGIN PARA TRABAHAR CON HTML DENTRO DE WEBPACK
+
+npm install html-loader -D
+npm install html-webpack-plugin -D
+
+INSTALAR PARA TRABAJAR CON CSS
+
+npm install mini-css-extract-plugin -D
+npm i css-loader -D
+npm i style-loader -D
+npm i sass -D
+npm i sass-loader -D
+
+
+npm install css-minimizer-webpack-plugin -D
+npm install terser-webpack-plugin -D
+npm install clean-webpack-plugin -D
