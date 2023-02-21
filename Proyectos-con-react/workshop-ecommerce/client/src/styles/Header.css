@@ -1,0 +1,13 @@
+.header {
+    width: 100vw;
+    height: 120px;
+    margin: 0 5px;
+    display: flex;
+    z-index: 2;
+}
+
+.container-logo {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}

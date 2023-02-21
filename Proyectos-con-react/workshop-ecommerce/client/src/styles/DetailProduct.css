@@ -1,0 +1,176 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+.container-detail {
+    width: 100vw;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    height: 80%;
+    padding: 10px;
+}
+
+.imgPrincipal {
+    width: 100%;
+    height: 428px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.imgMosaico {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+}
+
+.img_mini {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.img_mini:hover {
+    padding: 1px;
+    border: solid;
+    border-width: 4px;
+    border-color: orange;
+}
+
+.contenedor {
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.empresa {
+    font-family: "Kumbh Sans", serif;
+    color: hsl(26, 100%, 55%);
+}
+.modelo {
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.descripcion {
+    width: 90%;
+    color: hsla(0, 0%, 0%, 50%);
+    margin-top: 10px;
+}
+
+.div-moneda {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.descu {
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    padding: 0 5px;
+}
+
+.precioante {
+    text-decoration: line-through;
+}
+
+.cantidad {
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: hsla(0, 0%, 0%, 10%);
+    margin-top: 10px;
+}
+
+.restar {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+}
+
+.restar:hover {
+    cursor: pointer;
+}
+
+.sumar:hover {
+    cursor: pointer;
+}
+
+.sumar {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+}
+
+.agregar {
+    padding: 5px;
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(25, 100%, 94%);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.agregar:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 668px) {
+    .contenedor {
+        justify-content: center;
+    }
+
+    .container-detail {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imgContainer {
+        max-width: 428px;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .contenedor {
+        max-width: 600px;
+    }
+
+    .container-detail {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+

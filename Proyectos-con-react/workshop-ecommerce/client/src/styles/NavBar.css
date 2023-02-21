@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    align-items: center;
+    border-bottom: 1px gray solid;
+}
+
+.div-menu-icon {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-menu-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-menu {
+    width: 20px;
+}
+
+.icon-menu:hover {
+    cursor: pointer
+}
+
+.container-logo:hover {
+    cursor: pointer
+}
+
+.ul-navbar {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.list-item {
+    display: none;
+}
+
+
+.container-logo {
+    display: flex;
+}
+
+.num-carrito {
+    position: relative;
+    left: 45px;
+    top: -12px;
+    padding: 2px 5px;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 50%;
+    color: white;
+}
+
+
+@media (min-width: 668px) {
+    .icon-menu {
+        display: none;
+    }
+
+    ul,
+    li {
+        list-style: none;
+        color: gray;
+        margin: 0;
+    }
+
+    .list-item {
+        display: flex;
+        cursor: pointer;
+        color: black;
+        padding-bottom: 10px;
+    }
+
+    .list-item:hover {
+        cursor: pointer;
+        color: black;
+        border-bottom: 3px solid orange;
+        padding-bottom: 10px;
+    }
+
+    .ul-navbar {
+        display: flex;
+        gap: 30px;
+    }
+}
